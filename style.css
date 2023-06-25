@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 10vh;
+}
+
+.nav--logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--logo--title {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav--links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav--links li {
+    list-style: none;
+}
+.nav--links a {
+    text-decoration: none;
+    color: #494956;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav--cart {
+    height: 40px;
+}
+
+/* styling the main section */
+
+main {
+    height: 90vh;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main--text h2  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #555564;
+}
+
+.main--text p  {
+    width: 80%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #494956;
+}
+
+.main--ctas {
+    margin-top: 20px;
+}
+
+.main--ctas button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.main--cta--primary {
+    border: 2px solid #E05FE3;
+    background-color: white;
+    color: #E05FE3;
+}
+
+.main--cta--secondary {
+    background-color: #E05FE3;
+    color: white;
+    border: none;
+    margin-left: 25px;
+}
+.next-button {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 230px;
+    bottom: 70px;
+}
+
+.circle1 {
+    background: linear-gradient(
+        70deg,
+        rgba(95, 93, 121, 1),
+        rgba(95, 93, 121, 0)
+    );
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    opacity: 0.5;
+}
+
+.circle2 {
+    background: linear-gradient(
+        70deg,
+        rgba(95, 93, 121, 1),
+        rgba(95, 93, 121, 0)
+    );
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    bottom: 12%;
+    right: 40%;
+    opacity: 0.3;
+
+}
+
+.circle3 {
+    background: linear-gradient(
+        70deg,
+        rgba(95, 93, 121, 1),
+        rgba(95, 93, 121, 0)
+    );
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    bottom: -20px;
+    right: 70%;
+    opacity: 0.15;
+
+}
